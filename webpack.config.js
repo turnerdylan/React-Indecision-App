@@ -10,10 +10,13 @@ module.exports = {
         rules: [{
                 loader: 'babel-loader',
                 test: /\.(js|jsx)$/,
-                exclude: /(node_modules|bower_components)/,
-                options: { presets: ['@babel/env','@babel/preset-react'] }
+                exclude: /(node_modules|bower_components)/
             },
         ]
+    },
+    devtool: 'eval-cheap-module-source-map',
+    devServer: {
+        static: path.join(__dirname, 'public'),
     },
     mode: process.env.NODE_ENV || 'development'
 }

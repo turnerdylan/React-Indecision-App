@@ -6,19 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "live-server public/",
-    "build": "webpack --watch",
-    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch"
+    "build": "webpack",
+    "dev-server": "webpack serve"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "live-server": "^1.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "validator": "^13.7.0",
-    "webpack": "^5.68.0"
+    "webpack": "^5.68.0",
+    "webpack-dev-server": "^4.7.4"
   },
   "devDependencies": {
     "@babel/core": "^7.17.4",
