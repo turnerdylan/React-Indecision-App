@@ -1,7 +1,7 @@
 {
   "name": "indecision-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a simple web app that lets you add items to a list",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,13 +14,17 @@
   "license": "ISC",
   "dependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.5.2",
-    "babel-preset-react": "^6.24.1",
     "live-server": "^1.2.1",
-    "webpack": "^5.68.0",
-    "webpack-dev-server": "^4.7.4"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "validator": "^13.7.0",
+    "webpack": "^5.68.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.4",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
     "webpack-cli": "^4.9.2"
   }
 }
