@@ -1,1 +1,3 @@
-# This is a read me bitchhh
+# This is the indecision app.
+
+This is my first app made using react. It was bundled using Webpack and published using Heroku. Check it out!
