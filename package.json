@@ -8,7 +8,8 @@
     "serve": "live-server public/",
     "build": "webpack",
     "dev-server": "webpack serve",
-    "start": 
+    "start": "webpack",
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [],
   "author": "",
