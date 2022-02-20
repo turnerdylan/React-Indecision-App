@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "live-server public/",
     "build": "webpack",
-    "dev-server": "webpack serve"
+    "dev-server": "webpack serve",
+    "start": 
   },
   "keywords": [],
   "author": "",
@@ -15,10 +16,15 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^6.6.0",
     "live-server": "^1.2.1",
+    "node-sass": "^7.0.1",
+    "normalize.css": "^8.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-modal": "^3.14.4",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
     "validator": "^13.7.0",
     "webpack": "^5.68.0",
     "webpack-dev-server": "^4.7.4"
