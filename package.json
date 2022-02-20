@@ -8,7 +8,7 @@
     "serve": "live-server public/",
     "build": "webpack",
     "dev-server": "webpack serve",
-    "start": "webpack",
+    "start": "node index.js",
     "heroku-postbuild": "npm run build"
   },
   "keywords": [],
