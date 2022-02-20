@@ -8,7 +8,7 @@
     "serve": "live-server public/",
     "build": "webpack",
     "dev-server": "webpack serve",
-    "start": "node app.js",
+    "start": "webpack",
     "heroku-postbuild": "npm run build"
   },
   "keywords": [],
@@ -36,5 +36,8 @@
     "@babel/preset-react": "^7.16.7",
     "babel-loader": "^8.2.3",
     "webpack-cli": "^4.9.2"
+  },
+  "engines": {
+    "node": "14.17.0"
   }
 }
