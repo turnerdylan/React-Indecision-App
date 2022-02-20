@@ -44,26 +44,26 @@ export default class IndecisionApp extends React.Component {
     }
 
     //Methods
-    componentDidMount() {
-        try {
-            const json = localStorage.getItem('options')
-            const options = JSON.parse(json)
+    // componentDidMount() {
+    //     try {
+    //         const json = localStorage.getItem('options')
+    //         const options = JSON.parse(json)
 
-            if (options) {
-                this.setState(() => ({ options }))
-            }
-        } catch (e) {
-            //Do nothing
-        }
-    }
+    //         if (options) {
+    //             this.setState(() => ({ options }))
+    //         }
+    //     } catch (e) {
+    //         //Do nothing
+    //     }
+    // }
 
-    componentDidUpdate(prevProps, prevState) {
-        //saving data on app updates
-        if (prevState.options.length !== this.state.options.length) {
-            const json = JSON.stringify(this.state.options)
-            localStorage.setItem('options', json)
-        }
-    }
+    // componentDidUpdate(prevProps, prevState) {
+    //     //saving data on app updates
+    //     if (prevState.options.length !== this.state.options.length) {
+    //         const json = JSON.stringify(this.state.options)
+    //         localStorage.setItem('options', json)
+    //     }
+    // }
 
 
 
